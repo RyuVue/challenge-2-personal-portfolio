@@ -1,20 +1,6 @@
 body {
     background-color: rgba(204, 202, 202, 0.315);
 }
-nav {
-    display: block;
-    unicode-bidi: isolate;
-
-}
-
-.picture-container {
-    display: flex;
-    margin: 0 auto;
-    width: 200px;
-    height: 300px;
-    justify-content: center;
-   
-}
 
 .nav {
     display: flex;
@@ -30,4 +16,22 @@ nav {
 
 .nav-item {
     margin: 0 10px;
+}
+
+.picture-container {
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    height: 250px;
+    justify-content: center;
+   
+}
+
+.coming-soon {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width:  500px;
+    height: 250px;
+    justify-content: space-evenly;
+    border-radius: 15px 50px;
 }
