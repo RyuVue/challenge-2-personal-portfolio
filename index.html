@@ -9,6 +9,7 @@
     <body>
     <header id="Home">
         <nav class="nav">
+            <!--vvv Linked nav bar to appropriate places on website-->
                <ul class="nav-container">
                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                    <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
@@ -19,8 +20,9 @@
         <h1>Ryu Vue</h1>
         <hr>
     </header>
-    <main>
-         <div class="picture-container">
+    <main class="main-text">
+         <div class="profile-container">
+            <!--vvv Linked image from assets folder-->
             <img class="picture" src="assets/images/Ryu mystery machine.jpg" alt="profile-picture">
         </div>
         <article id="About">
@@ -34,16 +36,26 @@
         </article>
         <section id="Projects">
                 <h2>Projects</h2>
-                <a href="https://github.com/RyuVue?tab=repositories" target="_blank">
-                    <img class="coming-soon" src="assets/images/under construction.jpg" alt="An under construction sign">
-                    <img class="coming-soon" src="assets/images/under construction.jpg" alt="An under construction sign">
-                    <img class="coming-soon" src="assets/images/under construction.jpg" alt="An under construction sign">
+                <!--vvv linked image to git hub repo and made images accessible -->
+            <div class="project-container">
+                <a href="https://github.com/RyuVue?tab=repositories" target="_blank" class="image-link">
                     <img class="coming-soon" src="assets/images/under construction.jpg" alt="An under construction sign">
                 </a>
-                <p class="projects-description">This is a place holder for my upcoming projects, feel free to check up on me from time to time. </p>
+                    <a href="https://github.com/RyuVue?tab=repositories" target="_blank" class="image-link">
+                    <img class="coming-soon" src="assets/images/under construction.jpg" alt="An under construction sign">
+                </a>
+                    <a href="https://github.com/RyuVue?tab=repositories" target="_blank" class="image-link">
+                    <img class="coming-soon" src="assets/images/under construction.jpg" alt="An under construction sign">
+                </a>
+                    <a href="https://github.com/RyuVue?tab=repositories" target="_blank" class="image-link">
+                    <img class="coming-soon" src="assets/images/under construction.jpg" alt="An under construction sign">
+                </a>
+            </div>
+                <p>This is a place holder for my upcoming projects, feel free to check up on me from time to time. </p>
         </section>
         <section id="Contact">
             <h2>Contact</h2>
+                <!--vvv targeted labels, inputs, and text area to make more pleasing to look at -->
                 <div class="text-box">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name">
@@ -53,7 +65,7 @@
                     <input type="text" id="lname" name="lastname" placeholder="your last name">
                 </div>    
            <div class="text-box">
-            <textarea id="comments" name="comments" placeholder="Write anything" style="height: 200px;"></textarea>
+            <textarea id="comments" name="comments" placeholder="Write anything" style="width: 330px" rows="5"></textarea>
             <input type="submit" value="submit">
            </div>
         </section>

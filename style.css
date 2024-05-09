@@ -1,12 +1,17 @@
+* {
+    padding: 0;
+    margin: 15px;
+}
+
 body {
     background-color: rgba(119, 110, 110, 0.315);
 }
-
+/*vvv moved nav bar to far right*/
 .nav {
     display: flex;
     justify-content: flex-end;
 }
-
+/*vvv spaced them so no overlaping and got rid of bullet points*/
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -18,23 +23,39 @@ body {
     margin: 0 10px;
 }
 
-.picture-container {
+/*vvv centered picture instead of it hugging left*/
+.profile-container {
     display: flex;
     margin: 0 auto;
     width: 200px;
-    height: 250px;
+    height: 400px;
     justify-content: center;
    
 }
 
-.coming-soon {
+.main-text {
+    font-size: 20px;
+}
+/*vvv wraped projects nicely*/
+.project-container {
+    display: flex;
+    width: 100%;
     flex-wrap: wrap;
-    margin: 0 auto;
-    width:  500px;
-    height: 250px;
     justify-content: space-evenly;
+
+}
+
+
+.image-link {
+    margin: 0;
+    width:  500px;
+}
+
+.coming-soon {
+    width: 100%;
     border-radius: 15px 50px;
 }
+/*vvv stacked text boxes instead of spreading out to the right*/
 .text-box {
     justify-content: center;
 }
@@ -42,8 +63,9 @@ body {
     text-align: center;
     font-family: monospace ;
 }
+/*vvv made text shrink instead of starting new row*/
 @media (max-width: 624px) {
-    .projects-description {
-        font-size: .8rem;
+    .main-text {
+        font-size: 1rem;
     }
 }
