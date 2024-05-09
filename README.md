@@ -15,13 +15,13 @@ This challenge was meant to show how much HTML and CSS I have learned over two w
 [Personal-Portfolio media query](./assets/images/challenge2personalportfolio5.png)
 
 ## links
-[resource](https://css-tricks.com/)
+[css-tricks](https://css-tricks.com/)
 
-[resource](https://www.w3schools.com/css/default.asp)
+[w3schools](https://www.w3schools.com/css/default.asp)
 
-[resource](https://unsplash.com/)
+[unsplash](https://unsplash.com/)
 
-[resource](https://stock.adobe.com/)
+[stock.adobe](https://stock.adobe.com/)
 
 [git hub repo link](https://github.com/RyuVue/challenge-2-personal-portfolio)
 
