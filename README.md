@@ -21,6 +21,8 @@ This challenge was meant to show how much HTML and CSS I have learned over two w
 
 [resource](https://unsplash.com/)
 
+[resource](https://stock.adobe.com/)
+
 [git hub repo link](https://github.com/RyuVue/challenge-2-personal-portfolio)
 
-[deployed application]()
+[deployed application](https://ryuvue.github.io/challenge-2-personal-portfolio/)
