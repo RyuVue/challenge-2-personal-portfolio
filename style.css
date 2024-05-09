@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(204, 202, 202, 0.315);
+}
+nav {
+    display: block;
+    unicode-bidi: isolate;
+
+}
+
+.picture-container {
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
