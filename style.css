@@ -47,8 +47,9 @@ body {
 
 
 .image-link {
-    margin: 0;
-    width:  500px;
+    margin: 10px;
+    width:  504px;
+    flex: 0 1 auto;
 }
 
 .coming-soon {
