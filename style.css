@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(204, 202, 202, 0.315);
+    background-color: rgba(119, 110, 110, 0.315);
 }
 
 .nav {
@@ -34,4 +34,16 @@ body {
     height: 250px;
     justify-content: space-evenly;
     border-radius: 15px 50px;
+}
+.text-box {
+    justify-content: center;
+}
+.footer {
+    text-align: center;
+    font-family: monospace ;
+}
+@media (max-width: 624px) {
+    .projects-description {
+        font-size: .8rem;
+    }
 }
